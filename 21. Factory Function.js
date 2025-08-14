@@ -3,10 +3,11 @@ function createUser(name,age){
         name,
         age,
         introduce(){
-            return `Hi, I am  ${name} and I am ${age} years old`
+            return `Hi, I am  ${this.name} and I am ${this.age} years old`
         }
     }
 }
+
 
 const user1 = createUser("Kiruthick", 21)
 const user2 = createUser("Steve", 24)
